@@ -52,7 +52,6 @@ def juega(estrategia, log):
 
 
 def experimento(estrategia, n=int(10**6)):
-    conDebug = False
     resultados = []
     promedio = 0
     for _ in range(n):

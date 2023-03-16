@@ -1,0 +1,7 @@
+FROM docker.io/jupyter/datascience-notebook
+
+RUN conda install -c conda-forge geopandas
+RUN conda install -c conda-forge ipyleaflet
+RUN conda install -c conda-forge html5lib
+RUN pip install osmium
+RUN conda install -c conda-forge plotly
